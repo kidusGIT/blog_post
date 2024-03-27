@@ -4,9 +4,9 @@ const Footer = () => {
   const date = new Date(Date.now()).getFullYear();
 
   return (
-    <footer className="flex-row flex-center px-3">
+    <footer className="flex-row align-center px-3">
       <div style={{ color: "#FFFF" }}>
-        Copy rights <i className="bi bi-c-circle"></i> {date}
+        <i className="bi bi-c-circle"></i> Copyright {date}, Kidus Geremew
       </div>
     </footer>
   );
