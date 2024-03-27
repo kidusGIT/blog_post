@@ -42,6 +42,7 @@ function App() {
     async function verifyToken() {
       const link = `${url.HTTP}auth/user`;
       const res = await sendGetRequest(link);
+
       setUser(res);
     }
     verifyToken();

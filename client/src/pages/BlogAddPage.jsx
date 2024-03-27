@@ -88,7 +88,6 @@ const BlogAddPage = () => {
     }
   }
 
-  console.log(blog.status);
   if (blog.status !== undefined && !blog.status)
     return <ErrorPage message={blog.message} />;
 

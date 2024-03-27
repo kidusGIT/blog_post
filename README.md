@@ -11,8 +11,14 @@ This project is built using React and Node js.
     
 - The server directory contain the back-end part of the project.
     - I use sqlite as a database, if you don not have sqlite database on your machine you can download it [using this link ](https://sqlitebrowser.org/dl/). 
-    - I use sequlize library for manipulating the database.  
+    - I use sequelize library for manipulating the database.
+    - I use sqlite database because it is light, fast and suitable for development. We can use other database for production purpose, for development it is better to use sqlite.
+    - To switch to other database go to server/database.js and uncomment the code for connecting to MySQL database.
     - You can start the node server by going to your terminal and cd to server then type "npm run server" command 
+    
+    
+ > [!NOTE] **NOTE**  
+ For any suggestion and feedback contact me at kidus.geremew.amare@gmail.com, my phone number 0900082595 or you can find me on telegram [@Kiddus_g](https://t.me/Kiddus_g) i hope you will find the project interesting.
   
     
     
